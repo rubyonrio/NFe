@@ -2,8 +2,8 @@
 
 ##Considerações feitas na primeira reunião:
 
-* Funcionar Ruby > 1.8.7
-* Funcionar Rails > 2.3
+* Funcionar Ruby >= 1.8.7
+* Funcionar Rails >= 2.3
 * Fácil utilização:
   * Instalação, gem cadastrada no [RubyGems.org](http://rubygems.org) pelo [Ruby on Rio](http://rubyonrio.org/).
   * Utilização, passar os parâmetros de emissão da nota e a gem tratar e validar antes de enviar.
