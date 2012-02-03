@@ -1,13 +1,13 @@
 module NFe
   ## CONFIGURATION OPTIONS
 
-  # metohd for taking CNPJ
-  mattr_accessor :provider_tax_number
-  @@provider_tax_number = nil
+  # metohd for taking web password
+  mattr_accessor :web_password
+  @@web_password = nil
 
-  # method for taking CCM
-  mattr_accessor :provider_taxpayer_register
-  @@provider_taxpayer_register = nil
+  # method for taking digital certificate
+  mattr_accessor :digital_certificate
+  @@digital_certificate = nil
 
   def self.setup
     yield self
