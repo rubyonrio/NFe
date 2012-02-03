@@ -8,10 +8,9 @@ Gem::Specification.new do |s|
   s.name        = "n_fe"
   s.version     = NFe::VERSION
   s.authors     = ["Ruby on Rio"]
-  s.email       = ["TODO: Your email"]
+  s.email       = ["rubyonrio@gmail.com"]
   s.homepage    = "http://rubyonrio.org"
-  s.summary     = "TODO: Summary of NFe."
-  s.description = "TODO: Description of NFe."
+  s.description = "Nota fiscal eletronica brasileira."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
