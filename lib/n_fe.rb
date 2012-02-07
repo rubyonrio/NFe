@@ -1,11 +1,19 @@
 module NFe
   ## CONFIGURATION OPTIONS
 
-  # metohd for taking web password
+  # get web server production
+  mattr_accessor :web_server_production
+  @@web_server_production = nil
+
+  # get web server ratificatioin
+  mattr_accessor :web_server_ratification
+  @@web_server_ratification = nil
+
+  # get web password
   mattr_accessor :web_password
   @@web_password = nil
 
-  # method for taking digital certificate
+  # get digital certificate
   mattr_accessor :digital_certificate
   @@digital_certificate = nil
 
